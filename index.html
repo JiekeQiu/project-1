@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/commom.css" />
+    <script src="js/commom.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    
+</head>
+<body>
+    <!-- ===头部==== -->
+    <div id="header">
+        <div class="choose" style="display:none">
+            <p>个人中心</p>
+            <p>我的订单</p>
+            <p>我的主页</p>
+            <p id="quit">退出登录</p>
+        </div>
+        <div class="con clearfix">
+        <!-- 左边的ul -->
+            <ul class="top_l fl">
+                <li><a href="#">波奇网</a></li>
+                <li><a href="#">波奇商城</a></li>
+                <li><a href="#">波奇服务</a></li>
+                <li><a href="#">波奇论坛</a></li>
+                <li><a href="#">宠物百科</a></li>
+            </ul>
+            <!-- 右边的ul -->
+            <ul class="top_r fr">
+                <li>
+                    <a href="html/enter.html" class="login"></a>
+                </li>
+                <li><a href="html/login.html">注册</a></li>
+                <li><a href="#">微博</a></li>
+                <li><a href="#">微信</a></li>
+                <li><a href="#">手机版</a></li>
+            </ul>
+            
+        </div>
+    </div>
+    <!-- ===搜索栏===== -->
+     <div id="seek">
+        <div class="container">
+        <!-- =====搜索左==== -->
+            <div class="seek_l fl">
+                <h1>
+                    <img src="images/logo2.png" />
+                </h1>
+            </div>
+        <!-- =====搜索中==== -->
+            <div class="seek_c fl">
+                <span>
+                    <input type="text" placeholder="请输入关键字" class="hunt" />
+                    <input type="submit" value="搜索" class="btn" />
+                </span>
+                <p>
+                    热门搜索：
+                    <a href="#">宠物用品</a>
+                    <a href="#">狗粮</a>
+                    <a href="#">比熊</a>
+                    <a href="#">贵宾</a>
+                    <a href="#">金毛</a>
+                    <a href="#">哈士奇</a>
+                    <a href="#">贵宾犬</a>
+                    <a href="#">雪纳瑞</a>
+                    <a href="#">更多&gt;&gt;</a>
+                </p>
+            </div>
+        <!-- =====搜索右==== -->
+            <div class="seek_r fr">
+                <img src="images/reg.jpg" />
+            </div>
+        </div>
+     </div>
+    <!-- ===导航栏===== -->
+    <div id="nav">
+            <div class="container">
+                <ul class="nav_list">
+                    <li class="active">
+                        <a class="nav_head" href="#">首页</a>
+                        <div class="con" style="border:none;width:0;height:0"></div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">狗狗</a>
+                        <div class="con">
+                            <div>
+                                <a href="#">狗狗商城&gt;&gt;</a>
+                                <p>宠物狗粮 狗罐头/妙鲜包</p>
+                                <p>狗狗零食 狗狗保健品 狗狗医疗 </p>
+                                <p>狗狗沐浴露 狗狗日用品</p>
+                                <p>狗狗美容 狗狗玩具 衣服/狗窝</p>
+                            </div>
+                            <div>
+                                <a href="#">狗狗百科&gt;&gt;</a>
+                                <p>柯基犬 牛头梗 中华田园犬</p>
+                                <p>比特犬 比熊犬 博美犬 柯基</p>
+                                <p>边境牧羊犬 金毛 秋田犬 柴犬</p>
+                                <p>哈士奇 狗狗大全 狗狗饲养</p>
+                                <p>狗狗训练 狗狗医疗 问答专区</p>
+                                
+                            </div>
+                            <div>
+                                <a href="#">狗狗论坛&gt;&gt;</a>
+                                <p>哈士奇 萨摩 贵宾犬 比熊犬</p>
+                                <p>金毛/拉布拉多 苏牧/喜乐蒂</p>
+                                <p>雪纳瑞 西施犬/京巴犬</p>
+                                <p>混血儿论坛 其他</p>
+                            </div>
+                            <span>
+                                <img src="images/nav1.jpg" />
+                                <p>佩玛思特进口犬粮</p>
+                                <p>进口原料 健康品质</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">猫咪</a>
+                        <div class="con">
+                            <div>
+                                <a href="#">狗狗商城&gt;&gt;</a>
+                                <p>宠物狗粮 狗罐头/妙鲜包</p>
+                                <p>狗狗零食 狗狗保健品 狗狗医疗 </p>
+                                <p>狗狗沐浴露 狗狗日用品</p>
+                                <p>狗狗美容 狗狗玩具 衣服/狗窝</p>
+                            </div>
+                            <div>
+                                <a href="#">狗狗百科&gt;&gt;</a>
+                                <p>柯基犬 牛头梗 中华田园犬</p>
+                                <p>比特犬 比熊犬 博美犬 柯基</p>
+                                <p>边境牧羊犬 金毛 秋田犬 柴犬</p>
+                                <p>哈士奇 狗狗大全 狗狗饲养</p>
+                                <p>狗狗训练 狗狗医疗 问答专区</p>
+                                
+                            </div>
+                            <div>
+                                <a href="#">狗狗论坛&gt;&gt;</a>
+                                <p>哈士奇 萨摩 贵宾犬 比熊犬</p>
+                                <p>金毛/拉布拉多 苏牧/喜乐蒂</p>
+                                <p>雪纳瑞 西施犬/京巴犬</p>
+                                <p>混血儿论坛 其他</p>
+                            </div>
+                            <span>
+                                <img src="images/nav1.jpg" />
+                                <p>佩玛思特进口犬粮</p>
+                                <p>进口原料 健康品质</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">小宠</a>
+                        <div class="con">
+                            <div>
+                                <a href="#">狗狗商城&gt;&gt;</a>
+                                <p>宠物狗粮 狗罐头/妙鲜包</p>
+                                <p>狗狗零食 狗狗保健品 狗狗医疗 </p>
+                                <p>狗狗沐浴露 狗狗日用品</p>
+                                <p>狗狗美容 狗狗玩具 衣服/狗窝</p>
+                            </div>
+                            <div>
+                                <a href="#">狗狗百科&gt;&gt;</a>
+                                <p>柯基犬 牛头梗 中华田园犬</p>
+                                <p>比特犬 比熊犬 博美犬 柯基</p>
+                                <p>边境牧羊犬 金毛 秋田犬 柴犬</p>
+                                <p>哈士奇 狗狗大全 狗狗饲养</p>
+                                <p>狗狗训练 狗狗医疗 问答专区</p>
+                                
+                            </div>
+                            <div>
+                                <a href="#">狗狗论坛&gt;&gt;</a>
+                                <p>哈士奇 萨摩 贵宾犬 比熊犬</p>
+                                <p>金毛/拉布拉多 苏牧/喜乐蒂</p>
+                                <p>雪纳瑞 西施犬/京巴犬</p>
+                                <p>混血儿论坛 其他</p>
+                            </div>
+                            <span>
+                                <img src="images/nav1.jpg" />
+                                <p>佩玛思特进口犬粮</p>
+                                <p>进口原料 健康品质</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">水族</a>
+                        <div class="con">
+                            <div>
+                                <a href="#">狗狗商城&gt;&gt;</a>
+                                <p>宠物狗粮 狗罐头/妙鲜包</p>
+                                <p>狗狗零食 狗狗保健品 狗狗医疗 </p>
+                                <p>狗狗沐浴露 狗狗日用品</p>
+                                <p>狗狗美容 狗狗玩具 衣服/狗窝</p>
+                            </div>
+                            <div>
+                                <a href="#">狗狗百科&gt;&gt;</a>
+                                <p>柯基犬 牛头梗 中华田园犬</p>
+                                <p>比特犬 比熊犬 博美犬 柯基</p>
+                                <p>边境牧羊犬 金毛 秋田犬 柴犬</p>
+                                <p>哈士奇 狗狗大全 狗狗饲养</p>
+                                <p>狗狗训练 狗狗医疗 问答专区</p>
+                                
+                            </div>
+                            <div>
+                                <a href="#">狗狗论坛&gt;&gt;</a>
+                                <p>哈士奇 萨摩 贵宾犬 比熊犬</p>
+                                <p>金毛/拉布拉多 苏牧/喜乐蒂</p>
+                                <p>雪纳瑞 西施犬/京巴犬</p>
+                                <p>混血儿论坛 其他</p>
+                            </div>
+                            <span>
+                                <img src="images/nav1.jpg" />
+                                <p>佩玛思特进口犬粮</p>
+                                <p>进口原料 健康品质</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">爬虫</a>
+                        <div class="con">
+                            <div>
+                                <a href="#">狗狗商城&gt;&gt;</a>
+                                <p>宠物狗粮 狗罐头/妙鲜包</p>
+                                <p>狗狗零食 狗狗保健品 狗狗医疗 </p>
+                                <p>狗狗沐浴露 狗狗日用品</p>
+                                <p>狗狗美容 狗狗玩具 衣服/狗窝</p>
+                            </div>
+                            <div>
+                                <a href="#">狗狗百科&gt;&gt;</a>
+                                <p>柯基犬 牛头梗 中华田园犬</p>
+                                <p>比特犬 比熊犬 博美犬 柯基</p>
+                                <p>边境牧羊犬 金毛 秋田犬 柴犬</p>
+                                <p>哈士奇 狗狗大全 狗狗饲养</p>
+                                <p>狗狗训练 狗狗医疗 问答专区</p>
+                                
+                            </div>
+                            <div>
+                                <a href="#">狗狗论坛&gt;&gt;</a>
+                                <p>哈士奇 萨摩 贵宾犬 比熊犬</p>
+                                <p>金毛/拉布拉多 苏牧/喜乐蒂</p>
+                                <p>雪纳瑞 西施犬/京巴犬</p>
+                                <p>混血儿论坛 其他</p>
+                            </div>
+                            <span>
+                                <img src="images/nav1.jpg" />
+                                <p>佩玛思特进口犬粮</p>
+                                <p>进口原料 健康品质</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">波奇服务</a>
+                        <div class="con" style="border:none;width:0;height:0"></div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">波奇商城</a>
+                        <div class="con" style="border:none;width:0;height:0"></div>
+                    </li>
+                    <li>
+                        <a class="nav_head" href="#">波奇无线</a>
+                        <div class="con" style="border:none;width:0;height:0"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!-- 轮播图===== -->
+    <div id="slideshow" class="slideshow">
+        <div class="screen">
+            <ul>
+                <li><img src="images/lunbo1.jpg" /></li>
+                <li><img src="images/lunbo2.jpg" /></li>
+                <li><img src="images/lunbo3.jpg" /></li>
+                <li><img src="images/lunbo4.jpg" /></li>
+            </ul>
+        </div>
+        <p class="light">
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+    </p>
+        <ul class="slideshow_r">
+            <li>
+                <i class="store"></i>
+                <h1>波奇商城</h1>
+                <p>万件宠物用品一网打尽够实惠</p>
+            </li>
+            <li>
+                <i class="serve"></i>
+                <h1>波奇服务</h1>
+                <p>涵盖宠物美容/寄养/绝育等服务</p>
+            </li>
+            <li>
+                <i class="forum"></i>
+                <h1>波奇论坛</h1>
+                <p>与他共同玩出精彩宠世界</p>
+            </li>
+            <li>
+                <i class="cyclopedia"></i>
+                <h1>宠物百科</h1>
+                <p>为爱宠的健康生活保驾护航</p>
+            </li>
+        </ul>
+    </div>
+    <!-- ===推送产品==== -->
+    <ul id="popularize">
+        <div class="container">
+            <li>
+                <span>给朋友更好的<h4>素力高</h4></span>
+                <a href="#">
+                    <img src="images/populariz1.jpg" title="给朋友更好的"  />
+                </a>
+            </li>
+            <li>
+                <span>轻松驱虫<h4>福来恩驱虫</h4></span>
+                <a href="#">
+                    <img src="images/populariz2.jpg" title="给朋友更好的"  />
+                </a> 
+            </li>
+            <li>
+                 <span>告别毛球君<h4>化毛没烦恼</h4></span>
+                <a href="#">
+                    <img src="images/populariz3.jpg" title="给朋友更好的"  />
+                </a>
+            </li>
+            <li>
+                 <span>量身定制营养<h4>皇家宠粮</h4></span>
+                <a href="#">
+                    <img src="images/populariz4.jpg" title="给朋友更好的"  />
+                </a>
+            </li>
+            <li>
+                <p>波奇快报</p>
+                <p><i>.</i>波奇宠物官方QQ群：172887997</p>
+                <p><i>.</i>百科专家团队为您答疑解惑</p>
+            </li>
+        </div>
+    </ul>
+    <!-- ====产品==== -->
+    <div id="main">
+        <div class="container">
+        <!-- ====第一栏===== -->
+            <i></i>
+            <h2>狗狗</h2>
+            <div class="main_top clearfix skip">
+            <!-- 左 -->
+                <div class="main_topL fl">
+                <!-- 轮播图 -->
+                    <div class="main_topL_lunbo" id="main_top_lunbo">
+                        <div class="dog">
+                            <ul>
+                                <li><img src="images/main1.jpg" /></li>
+                                <li><img src="images/main2.jpg" /></li>
+                                <li><img src="images/main3.jpg" /></li>
+                            </ul>
+                        </div>
+                        <p class="light">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+                <!-- 右 -->
+                <div class="main_topR fr">
+                <!-- 右上板块 -->
+                    <ul class="main_topR_T">
+                        <h3>狗狗用品<em>&gt;&gt;</em></h3>
+                        <li>
+                            <img src="images/topRT.jpg" />
+                            <p>福摩狗粮</p>
+                            <p>搭配均匀 调理肠胃</p>
+                        </li>
+                        <li>
+                            <img src="images/topRT2.jpg" />
+                            <p>皇家狗粮</p>
+                            <p>精准营养 量身定制</p>
+                        </li>
+                        <li>
+                            <img src="images/topRT3.jpg" />
+                            <p>宝路狗粮</p>
+                            <p>一切只为爱宠</p>
+                        </li>
+                        <li>
+                            <img src="images/topRT4.jpg" />
+                            <p>冠能狗粮</p>
+                            <p>专注营养 全面保护</p>
+                        </li>
+                    </ul>
+                    <!-- 右下板块 -->
+                    <ul class="main_topR_B">
+                        <h3>狗狗服务<em>&gt;&gt;</em></h3>
+                        <li>
+                            <img src="images/topRB1.jpg" />
+                            <div>
+                                <p>狗狗洗护</p>
+                                <p>专业洗护，让您的爱宠更加洁净可爱~</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/topRB2.jpg" />
+                            <div>
+                                <p>狗狗造型</p>
+                                <p>精致造型，让爱宠换发迷人光彩~</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/topRB3.jpg" />
+                            <div>
+                                <p>狗狗营养</p>
+                                <p>假日狗狗去哪里？宠物服务来帮你~</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 下 -->
+                <div class="main_topB">
+                <!-- 左 -->
+                    <ul class="main_topB_L fl">
+                        <h3>狗狗论坛<em>&gt;&gt;</em></h3>
+                        <li>
+                            <img src="images/topB1.jpg" />
+                            <div>
+                                <a href="#">这只比特有点萌，看见好吃的就这样</a>
+                                <p>美国比特犬作为世界第一猛犬，长相凶狠，攻击力器.....</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/topB2.png" />
+                            <div>
+                                <a href="#">二哈秀起恩爱来，我都没眼看了...</a>
+                                <p>二哈是狗界知名网红，是拆迁队长，撒手没、二...</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 中 -->
+                    <ul class="main_topB_C fl">
+                        <h3>狗狗百科<em>&gt;&gt;</em></h3>
+                    <!-- =============轮播图================= -->
+                        <div id="sliedimg">
+                            <div class="view" id="view">
+                            <ul class="ul">
+                                <li>
+                                    <div>
+                                        <a href="#">威尔士柯容易长胖怎么办？</a>
+                                        <p>喜欢柯基实在有太多理由了，小短腿，萌；大屁股，萌；有笑眼，萌；实在有太多的理由去养一只柯基犬了。</p>
+                                    </div>
+                                    <a href="javascript:;" class="Carousel"><img src="images/topB3.jpg" /></a>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">养狗不仅仅易于健康，以下的养狗好处你都知道...
+                                        </a>
+                                        <p>养狗只在乎它的外观相貌，只在乎它给你带来的乐趣和消遣？其实养狗还是有很多好处的，很多人养狗你都是因为它能改善我们的生活，提高我们的生活质量，那么养狗究竟有哪些好处呢？</p>
+                                    </div>
+                                    <a href="javascript:;" class="Carousel"><img src="images/topB4.jpg" /></a>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            流浪狗为什么会那么多
+                                        </a>
+                                        <p>如今我们走在大街上，会发现有很多流浪狗。它们在外面挨饿受冻，很是可怜。纵使有许多流浪狗收留站或者爱心组织，但对于整个流浪狗救助工作来说还是是杯水车薪。那么，为什么会有这么多</p>
+                                    </div>
+                                    <a href="javascript:;" class="Carousel"><img src="images/topb5.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--上下箭头-->
+                        <div class="pis">
+                            <p class="prev">&lt;</p>
+                            <p class="next">&gt;</p>
+                        </div>
+                        </div>
+                    </ul>
+                    <!-- ========右===== -->
+                    <ul class="main_topB_R fr">
+                        <li>
+                            <img src="images/topB6.jpg" />
+                            <a href="#">狗狗品种大全</a>
+                            <p>狗狗的籍贯、体型、寿命</p>
+                        </li>    
+                    </ul>
+                </div>
+            </div>
+        <!-- ====第二栏====== -->
+        <div class="main_bottom skip">
+            <i></i>
+            <h2>猫咪</h2>
+            <div class="main_bottom_t clearfix">
+            <!-- 左-->
+                <div class="main_bottom_tL fl">
+                    <div class="main_bottom_lunbo" id="main_bottom_lunbo">
+                    <!-- 轮播图 -->
+                        <div class="cat" id="cat">
+                            <ul>
+                                <li><img src="images/cat1.jpg" /></li>
+                                <li><img src="images/cat2.jpg" /></li>
+                                <li><img src="images/cat3.jpg" /></li>
+                            </ul>
+                        </div>
+                        <p class="light">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div> 
+                </div>
+                <!-- 右-->
+                <div class="main_bottom_tR fr">
+                <!-- 右上 -->
+                    <ul class="main_bottom_tR_T">
+                        <h3>猫咪用品<em>&gt;&gt;</em></h3>
+                        <li>
+                            <img src="images/bottom1.jpg" />
+                            <p>渴望猫粮</p>
+                            <p>满足渴望的六种猫粮</p>
+                        </li>
+                        <li>
+                            <img src="images/bottom2.jpg" />
+                            <p>皇家狗粮</p>
+                            <p>精准营养 量身定制</p>
+                        </li>
+                        <li>
+                            <img src="images/bottom3.jpg" />
+                            <p>宝路狗粮</p>
+                            <p>一切只为爱宠</p>
+                        </li>
+                        <li>
+                            <img src="images/bottom4.jpg" />
+                            <p>冠能狗粮</p>
+                            <p>专注营养 全面保护</p>
+                        </li>
+                    </ul>
+                <!-- 右下 -->
+                    <ul class="main_bottom_tR_B">
+                        <h3>猫咪服务<em>&gt;&gt;</em></h3>
+                        <li>
+                            <img src="images/topRB1.jpg" />
+                            <div>
+                                <p>猫咪洗护</p>
+                                <p>专业洗护，让您的爱宠更加洁净可爱~</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/topRB2.jpg" />
+                            <div>
+                                <p>猫咪造型</p>
+                                <p>精致造型，让爱宠换发迷人光彩~</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/topRB3.jpg" />
+                            <div>
+                                <p>猫咪营养</p>
+                                <p>假日狗狗去哪里？宠物服务来帮你~</p>
+                            </div>
+                        </li>
+                    </ul
+                </div>
+            </div>
+            <div class="main_bottom_b">
+                <ul class="main_bottom_bL fl">
+                    <h3>猫咪论坛<em>&gt;&gt;</em></h3>
+                        <li>
+                            <img src="images/topB1.jpg" />
+                            <div>
+                                <a href="#">这只比特有点萌，看见好吃的就这样</a>
+                                <p>美国比特犬作为世界第一猛犬，长相凶狠，攻击力器.....</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/topB2.png" />
+                            <div>
+                                <a href="#">二哈秀起恩爱来，我都没眼看了...</a>
+                                <p>二哈是狗界知名网红，是拆迁队长，撒手没、二...</p>
+                            </div>
+                        </li>
+                </ul>
+                <ul class="main_bottom_bC fl">
+                    <h3>猫咪百科<em>&gt;&gt;</em></h3>
+                    <!-- =============轮播图================= -->
+                        <div id="main_bottom_bC_lunbo">
+                            <div class="main_bottomLunbo" id="main_bottomLunbo">
+                            <ul class="ul">
+                                <li>
+                                    <div>
+                                        <a href="#">威尔士柯容易长胖怎么办？</a>
+                                        <p>喜欢柯基实在有太多理由了，小短腿，萌；大屁股，萌；有笑眼，萌；实在有太多的理由去养一只柯基犬了。</p>
+                                    </div>
+                                    <a href="javascript:;" class="Carousel"><img src="images/topB3.jpg" /></a>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">养狗不仅仅易于健康，以下的养狗好处你都知道...
+                                        </a>
+                                        <p>养狗只在乎它的外观相貌，只在乎它给你带来的乐趣和消遣？其实养狗还是有很多好处的，很多人养狗你都是因为它能改善我们的生活，提高我们的生活质量，那么养狗究竟有哪些好处呢？</p>
+                                    </div>
+                                    <a href="javascript:;" class="Carousel"><img src="images/topB4.jpg" /></a>
+                                </li>
+                                <li>
+                                    <div>
+                                        <a href="#">
+                                            流浪狗为什么会那么多
+                                        </a>
+                                        <p>如今我们走在大街上，会发现有很多流浪狗。它们在外面挨饿受冻，很是可怜。纵使有许多流浪狗收留站或者爱心组织，但对于整个流浪狗救助工作来说还是是杯水车薪。那么，为什么会有这么多</p>
+                                    </div>
+                                    <a href="javascript:;" class="Carousel"><img src="images/topb5.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--上下箭头-->
+                        <div class="pis">
+                            <p class="prev">&lt;</p>
+                            <p class="next">&gt;</p>
+                        </div>
+                        </div>
+                    </ul>
+                <ul class="main_bottom_bR fr">
+                    <li>
+                        <img src="images/topB6.jpg" />
+                        <a href="#">狗狗品种大全</a>
+                        <p>狗狗的籍贯、体型、寿命</p>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 信用 -->
+    <div id="credit">
+        <ul>
+            <li>
+                <i class="credit1"></i>
+                <p>正品保障</p>
+                <p>全场正品 假一赔十</p>
+            </li>
+            <li>
+                <i class="credit2"></i>
+                <p>闪电发货</p>
+                <p>7省满59免运费</p>
+            </li>
+            <li>
+                <i class="credit3"></i>
+                <p>无忧退换</p>
+                <p>七天退换　购买无忧</p>
+            </li>
+            <li>
+                <i class="credit4"></i>
+                <p>优质服务</p>
+                <p>品类丰富　多快好省</p>
+            </li>
+            <li>
+                <i class="credit5"></i>
+                <p>诚信电商</p>
+                <p>宠友放心　值得信赖</p>
+            </li>
+        </ul>
+    </div>
+    <!-- 链接 -->
+    <div id="links">
+        <div>
+           <p>友情链接</p> 
+           <a href="#">乌龟</a><a href="#"> 博美犬</a><a href="#"> 暹罗猫</a><a href="#"> 边境牧羊犬</a><a href="#"> 金毛</a><a href="#"> 秋田犬</a><a href="#"> 八哥</a><a href="#"> 柴犬</a><a href="#"> 哈士奇</a><a href="#"> 布偶猫</a><a href="#"> 手机靓号网</a><a href="#"> 手工制作</a><a href="#"> 名鞋库</a><a href="#"> 重庆人才网</a><a href="#"> 网上114</a><a href="#"> 中型犬</a><a href="#"> 小型犬</a><a href="#"> 大型犬</a><a href="#"> 淘狗网</a><a href="#"> 钱香金融</a><a href="#"> 五笔输入法</a><a href="#"> 加盟网</a><a href="#"> 慧聪网</a><a href="#"> 返利网</a><a href="#"> 上海房产网</a><a href="#"> 图库</a><a href="#"> 手表网</a><a href="#"> 免费发布信息</a><a href="#"> 中国品牌网</a><a href="#"> 欣欣百宝箱</a><a href="#"> 建材商城</a><a href="#"> 宠物狗</a><a href="#"> 知名宠物用品商城</a><a href="#"> 时尚宠物</a><a href="#"> 美食天下</a><a href="#"> 钓鱼网</a><a href="#"> 狗狗网</a><a href="#"> 龙鱼之巅</a>
+        >
+            <ul>
+                <li class="fl">
+                    <i class="links1"></i>
+                    <div>
+                        <p>波奇宠物APP</p>
+                        <p>注册立享270元 首单再送330元</p>
+                        <p>
+                            <span  class="Links1"></span>
+                            <span class="Links2"></span>
+                        </p>
+                    </div>       
+                </li>
+                 <li class="fl">
+                    <i class="links2"></i>
+                    <div>
+                        <p>官方微信</p>
+                        <p>公众号：<em>boqiiwang</em></p>
+                        <p>
+                            扫描二维码，关注身边的萌宠趣事！
+                        </p>
+                    </div>       
+                </li>
+                <li class="fr">
+                    <i class="links3"></i>
+                    <div>
+                        <p>官方微博</p>
+                        <p>波奇网</p>
+                        <p>
+                            <span  class="Links3"></span>
+                            
+                        </p>
+                    </div>       
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 备案 -->
+     <div id="footer">
+    <!-- ======连接======== -->
+        <p class="link">
+            <a href="#">关于波奇</a>
+            <a href="#">友情连接</a>
+            <a href="#">诚聘英才</a>
+            <a href="#">联系我们</a>
+            <a href="#">网站地图</a>
+            <a href="#">意见反馈</a>
+            <a href="#">帮助中心</a>
+            <a href="#">客服热线：400-820-6098</a>
+        </p>
+        <p class="beian">
+            <i class="police"></i>
+            <a href="#">沪公网安备 31011502004955号</a>
+            <a href="#">沪ICP备13034501号-2</a>
+            <a href="#">增值电信业务经营许可证： 沪B2-20140120</a>
+        </p>
+        <p class="copy">Copyright © 2007-2018 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有</p>
+        <p class="copy">公司地址：上海市浦东新区盛夏路399号亚芯科技园1号楼6楼|公司电话：021-61096226</p>
+        <p>
+            <a href="#"><img src="images/foot_gs.png" height="35" width="100" alt="" /></a>
+            <a href="#"><img src="images/foot_cx.png" height="35" width="100" alt="" /></a>
+            <a href="#"><img src="images/foot_kx.png" height="35" width="100" alt="" /></a>
+            <a href="#"><img src="images/foot_zx.png" height="35" width="100" alt="" /></a>
+        </p>
+    </div>
+</div>
+
+    <ul id="catalog">
+        <li class="active">狗狗</li>
+        <li>猫咪</li>
+        <li>小宠</li>
+        <li>水族</li>
+        <li>爬虫</li>
+        <li id="top">顶部</li>
+    </ul>
+</body>
+</html>

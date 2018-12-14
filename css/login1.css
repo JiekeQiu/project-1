@@ -1,0 +1,49 @@
+body{
+    background: #F3F3F3;
+}
+/*===========头部==============================*/
+#header{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+/*===========内容=========================*/
+#header .con{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+/*=======左边的ul============*/
+#header .top_l{
+    width: 350px;
+}
+#header .top_l li{
+    float: left;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+#header .top_l li a{
+    color: #000;
+    font-size: 14px;
+}
+/*=======右边的ul====================*/
+#header .top_r{
+    width: 350px;
+}
+#header .top_r li{
+    float: left;
+    width: 43px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+#header .top_r li a{
+    color: #000;
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    
+}

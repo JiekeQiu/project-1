@@ -1,0 +1,334 @@
+@charset "UTF-8";
+body {
+  background: #F3F3F3;
+}
+
+/*======头部======*/
+#header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+#header .con {
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+#header .con .top_l {
+  width: 350px;
+}
+#header .con .top_l li {
+  float: left;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+#header .con .top_l li a {
+  color: #000;
+  font-size: 14px;
+}
+#header .con .top_l li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+#header .con .top_r {
+  width: 350px;
+}
+#header .con .top_r li {
+  float: left;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+#header .con .top_r li a {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  padding-right: 5px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+}
+#header .con .top_r li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+#header .con .top_r li:last-child a {
+  border-right: none;
+}
+
+/* =====logo====*/
+.logo {
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo .logo_l {
+  width: 500px;
+}
+.logo .logo_l a {
+  width: 250px;
+  height: 80px;
+}
+.logo .logo_l a img {
+  float: left;
+  width: 250px;
+  height: 80px;
+}
+.logo .logo_l h1 {
+  float: left;
+  font-size: 30px;
+  color: #666666;
+  border-left: 1px solid #ccc;
+  padding: 0 0 0 10px;
+  height: 40px;
+  margin: 28px 0 0 10px;
+}
+.logo span {
+  height: 80px;
+}
+.logo span p {
+  color: #000;
+  line-height: 140px;
+}
+.logo span p a {
+  color: #469EEB;
+}
+
+/*====注册页======*/
+.login {
+  width: 1000px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 20px auto;
+}
+.login div {
+  padding: 40px 0 0 50px;
+  position: relative;
+}
+.login div i {
+  display: inline-block;
+  width: 14px;
+  height: 24px;
+  background: url(../images/login.png) 0 -195px;
+  position: absolute;
+  top: 48px;
+  left: 60px;
+}
+.login div h1 {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid red;
+}
+.login div form {
+  width: 620px;
+}
+.login div form p {
+  margin-top: 10px;
+  position: relative;
+}
+.login div form p span {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  color: #000;
+  font-size: 16px;
+}
+.login div form p input {
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 260px;
+  padding-left: 20px;
+}
+/*====提醒======*/
+.login div form p .phone,
+.login div form p .pass,
+.login div form p .aPass,
+.login div form p .nickname{
+  border: 1px solid #ffbdbf;
+  padding: 4px 10px;
+  width: 210px;
+  height: 25px;
+  font-size: 14px;
+  color: #f65;
+  background:#ffebec;
+  display:none;
+}
+.login div form p .verify {
+  width: 100px;
+}
+/*====图标错存放====*/
+.login div form p .error1,
+.login div form p .error2{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: none;
+
+}
+.login div form p .error1{
+    background: url(../images/login.png) -36px -33px;
+    top: 10px;
+    left: 180px;
+}
+.login div form p .error2{
+    background: url(../images/login.png) -36px -33px;
+    top: 10px;
+    left: 180px;
+}
+/*=======图标对存放=====*/
+.login div form p .right1,
+.login div form p .right2,
+.login div form p .right3,
+.login div form p .right4,
+.login div form p .right5,
+.login div form p .right6{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: none;
+
+}
+.login div form p .right1{
+    background: url(../images/login.png) 0 -33px;
+    top: 10px;
+    left: 365px;
+}
+.login div form p .right2{
+  background: url(../images/login.png) 0 -33px;
+    top: 10px;
+    left: 365px;
+}
+.login div form p .right3{
+  background: url(../images/login.png) 0 -33px;
+    top: 10px;
+    left: 365px;
+}
+.login div form p .right4{
+  background: url(../images/login.png) 0 -33px;
+    top: 10px;
+    left: 365px;
+}
+.login div form p .right5{
+  background: url(../images/login.png) 0 -33px;
+    top: 9px;
+    left: 175px;
+}
+.login div form p .right6{
+  background: url(../images/login.png) 0 -33px;
+    top: 9px;
+    left: 175px;
+}
+
+
+
+
+
+
+.login div form p em {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: bottom;
+  border: 1px solid #ccc;
+  margin-right: 70px;
+}
+.login div form p a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.login div form p .note {
+  width: 140px;
+  height: 40px;
+  background: #F3F3F3;
+  border: 1px solid #ccc;
+  color: #CFCCCC;
+  line-height: 35px;
+}
+.login .read {
+  width: 350px;
+  margin-top: 20px;
+  padding-top: 0;
+}
+.login .read span {
+  display: inline-block;
+  width: 50px;
+}
+.login .read a {
+  color: #3366cc;
+}
+.login .btn {
+  width: 250px;
+  height: 40px;
+  background: red;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  padding: 0;
+  margin: 20px 0 30px 55px;
+}
+.login .login_r {
+  width: 200px;
+  padding: 0;
+}
+.login .login_r img {
+  width: 200px;
+  height: 480px;
+}
+
+/*=====尾部=============*/
+#footer {
+  width: 620px;
+  height: 160px;
+  margin: 0 auto;
+  text-align: center;
+}
+#footer a {
+  width: 60px;
+  height: 20px;
+  color: #000;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+}
+#footer a:last-child {
+  border-right: none;
+}
+#footer .beian {
+  margin-top: 10px;
+}
+#footer .beian a {
+  color: #000;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+}
+#footer .beian a:first-child {
+  margin-left: 20px;
+}
+#footer .beian a:last-child {
+  border-right: none;
+}
+#footer .beian .police {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/beian.png");
+}
+#footer .copy {
+  color: #000;
+  margin: 10px 0 10px 0;
+}
+
+/*# sourceMappingURL=login.css.map */

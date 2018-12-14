@@ -1,0 +1,301 @@
+body{
+    background:#F3F3F3;
+}
+#enter{
+    width: 990px;
+    height: 523px;
+    /*background:#FFFFFF;*/
+    margin: 0 auto;
+}
+#enter_top a{
+    width: 250px;
+    height: 80px;
+}
+#enter_top img{
+    float:left;
+    width: 250px;
+    height: 80px;
+}
+#enter_top h1{
+    float: left;
+    font-size: 30px;
+    color: #666666;
+    border-left: 1px solid #ccc;
+    padding: 0 0 0 10px;
+    height: 40px;
+    margin: 28px 0 0 10px;
+}
+/*===============中间内容部分=======================================*/
+/*外层盒子样式*/
+#enter_content{
+    width: 990px;
+    height: 400px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+/*=======================================================*/
+/*左边内容*/
+#enter_content img{
+    width: 480px;
+    height: 380px;
+    margin: 10px 10px;
+}
+/*=================右边内容=============================*/
+/*登录页面*/
+.content_r{
+    float: right;
+    width: 455px;
+    height: 378px;
+    margin: 10px 16px;
+}
+/*======================选择登录方式=================================*/
+.content_r .content_list_tab{
+    width: 410px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+/*=========================账号密码登录=================================*/
+.content_list_tab .content_list_tab1{
+    float:left;
+    width: 204px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    border-right: 1px solid #ccc;
+    
+}
+/*=========================手机动态码登录===============================*/
+.content_list_tab .content_list_tab2{
+    float:right;
+    width: 204px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+}
+/*======================账号登录页==============================*/
+.content_r .content_list1{
+    /*width: 204px;*/
+    position: relative;
+    /*display:none;*/
+}
+/*============用户名和密码=========================================*/
+.content_list1 .user,
+.content_list1 .password{
+    width: 410px;
+    height: 48px;
+    border:1px solid #ccc;
+    padding-left: 50px;
+    
+}
+.content_list1 .userMap,
+.content_list1 .phone{
+    display: inline-block;
+    width: 18px;
+    height: 21px;
+    background:url(../images/login.png) -6px 0;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.content_list1 .phone{
+    display:inline-block;
+    /*width: 18px;*/
+    background:url(../images/login.png) -38px 0;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+
+}
+/*===========验证码=========================*/
+.content_list1 .verify{
+    width: 410px;
+    position: relative;
+}
+.content_list1 .verify span:first-child{
+    width: 220px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: left;
+
+}
+.content_list1 .verify span .dynamic{
+    width: 50px;
+    height: 42px;
+}
+.content_list1 .verify .right,
+.content_list1 .verify .error{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    display: none;    
+}
+.content_list1 .verify .right{
+    background:url("../images/login.png") 0 -33px;
+}
+.content_list1 .verify .error{
+    background:url("../images/login.png") -36px -33px;
+}
+.content_list1 span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    vertical-align: bottom;
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+}
+.content_list1 a{
+    display: inline-block;
+    width: 78px;
+    height: 25px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: bottom;
+    color: blue;
+}
+/*===提示正误====*/
+.remind{
+    width: 410px;
+    height: 30px;
+    color: #f65;
+    background: #ffebec;
+    border: 1px solid #ffbdbf;
+    padding: 7px 10px;
+    margin-top: 10px;
+    display: none;
+}
+/*==================自动登录、忘记密码、免费注册=========*/
+.login{
+    width: 410px;
+    /*height: 80px;*/
+    margin-top: 10px;
+}
+/*====自动登录==========*/
+.login .automatic{
+
+}
+/*====忘记密码、免费注册========*/
+/*.login .regPassword{
+    width: 100px;
+}*/
+.login .regPassword a{
+    width: 60px;
+    height: 13px;
+    padding-right: 5px;
+    color: #666;
+    font-size: 12px;
+}
+.login .regPassword a:nth-child(1){
+    border-right: 1px solid #ccc;
+}
+/*=======动态码登录==========================*/
+.content_list2{
+    position: relative;
+    display:none;
+}
+/*=========手机号码、验证信息*/
+.content_list2 .user2{
+    width: 410px;
+    height: 48px;
+    border:1px solid #ccc;
+    padding-left: 50px;
+}
+.content_list2 .code{
+    width: 260px;
+    height: 48px;
+    padding-left: 20px;
+    font-size: 18px;
+    
+    border: 1px solid #ccc;
+}
+.content_list2 span{
+    display:inline-block;
+    width: 144px;
+    height: 48px;
+    border: 1px solid red;
+    padding-top: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content_list2 .phone2{
+    display: inline-block;
+    width: 14px;
+    height: 24px;
+    background:url(../images/login.png) 0 -195px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+/*=====提示====*/
+.hint{
+    width: 410px;
+    height: 30px;
+    color: #f65;
+    background: #ffebec;
+    border: 1px solid #ffbdbf;
+    padding: 7px 10px;
+    margin-top: 10px;
+    display: none;
+}
+/*=======隐藏账号、动态码登录页=======================*/
+.active{
+    border-bottom: 2px solid red;
+}
+/*=====点击登录==============*/
+.list_enter{
+    width: 410px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.list_enter h1{
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    background: red;
+    margin-bottom: 5px;
+}
+/*============登录方式===================*/
+.list_enter .list_enter_else{
+    border-bottom: 1px solid #ccc;
+    height: 14px;
+    line-height: 30px;
+}
+.list_enter_else span{
+    color: #999;
+    background: #fff;
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*===========具体方式======================*/
+.loginMethod{
+    width: 410px;
+    text-align: center;
+    padding-top: 18px;
+}
+.loginMethod a{
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    padding-right: 5px;
+    color: #666;
+    border-right: 1px solid #ccc;
+}
+.loginMethod a:last-child{
+    border-right: 1px solid #fff;
+}

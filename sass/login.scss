@@ -1,0 +1,245 @@
+@charset "utf-8";//设置编码格式
+body{
+    background: #F3F3F3;
+}
+/*======头部======*/ 
+#header{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    .con{
+        width: 1000px;
+        height: 40px;
+        margin: 0 auto;
+        .top_l{
+            width: 350px;
+            li{
+                float: left;
+                width: 60px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                margin-right: 10px;  
+                a{
+                    color:#000;
+                    font-size: 14px;
+                    &:hover{
+                        color:red;
+                        text-decoration:underline; 
+                    }
+                }
+            }
+        }
+        .top_r{
+            width: 350px;
+            li{
+                float: left;
+                width: 60px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                margin-right: 10px; 
+                
+                a{
+                    display: inline-block;
+                    width: 60px;
+                    height: 20px;
+                    line-height: 20px;
+                    vertical-align: middle;                    
+                    padding-right: 5px;
+                    color: #000;
+                    border-right: 1px solid #ccc;
+                    font-size: 14px;
+                    &:hover{
+                        color:red;
+                        text-decoration:underline; 
+                    }
+                }
+                &:last-child a{
+                    border-right: none;
+                }
+            }
+        }
+    }
+}
+/* =====logo====*/
+.logo{
+    width: 1000px;
+    margin: 0 auto;
+    .logo_l{
+        width: 500px;
+        a{
+            width: 250px;
+            height: 80px;
+            img{
+                float: left;
+                width: 250px;
+                height: 80px;
+            }
+        }
+        h1{
+            float: left;
+            font-size: 30px;
+            color: #666666;
+            border-left: 1px solid #ccc;
+            padding: 0 0 0 10px;
+            height: 40px;
+            margin: 28px 0 0 10px;
+        }
+    }
+    span{
+        height: 80px;
+        p{
+            color: #000;
+            line-height: 140px;
+            a{
+                color:#469EEB;
+            }
+        }
+    }
+}
+/*====注册页======*/
+.login{
+    width: 1000px;
+    border: 1px solid #ccc;
+    background:#fff;
+    margin: 20px auto;
+    div{
+        padding: 40px 0 0 50px;
+        position: relative;
+        i{
+            display:inline-block;
+            width: 14px;
+            height: 24px;
+            background: url(../images/login.png) 0 -195px;
+            position: absolute;
+            top: 48px;
+            left: 60px;
+        }
+        h1{
+            width: 120px;
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            padding-left: 40px;
+            line-height: 40px;
+            border-bottom: 2px solid red;
+        }
+        form{
+            width: 620px;
+            p{
+                margin-top: 10px;
+                span{
+                    display:inline-block;
+                    text-align: center;
+                    width: 100px;
+                    color: #000;
+                    font-size: 16px;
+                }
+                input{
+                    border: 1px solid #ccc;
+                    height: 40px;
+                    width: 260px;
+                    padding-left: 20px;
+                }
+                .verify{
+                    width: 100px;
+                }
+                em{
+                    display: inline-block;
+                    width: 80px;
+                    height: 30px;
+                    font-size: 20px;
+                    text-align: center;
+                    vertical-align: bottom;
+                    border: 1px solid #ccc;
+                    margin-right: 70px;
+                }
+                a:hover{
+                    color: red;
+                    text-decoration:underline; 
+                }
+                .note{
+                    width: 140px;
+                    height: 40px;
+                    background: #F3F3F3;
+                    border: 1px solid #ccc;
+                    color: #CFCCCC;
+                    line-height: 35px;
+                }
+            }
+            
+        }
+    }
+    .read{
+        width: 350px;
+        margin-top: 20px;
+        padding-top: 0;
+        span{
+            display:inline-block;
+            width: 50px;
+        }
+        a{
+            color: #3366cc;
+        }
+    }
+    .btn{
+        width: 250px;
+        height: 40px;
+        background:red;
+        text-align: center;
+        line-height: 40px;
+        font-size: 24px;
+        padding: 0;
+        margin: 20px 0 30px 55px;
+    }
+    .login_r{
+        width: 200px;
+        padding:0;
+        img{
+            width: 200px;
+            height: 480px;
+        }
+    }
+}
+/*=====尾部=============*/
+#footer{
+    width: 620px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    a{
+        width: 60px;
+        height: 20px;
+        color: #000;
+        padding-right: 5px;
+        border-right: 1px solid #ccc; 
+    }
+    a:last-child{
+        border-right: none;
+    }
+    .beian{
+        margin-top: 10px;
+        a{
+            color: #000;
+            border-right: 1px solid #ccc;
+            padding-right: 5px;
+        }
+        a:first-child{
+            margin-left: 20px;
+        }
+        a:last-child{
+            border-right: none;
+        }
+        .police{
+            display:inline-block;
+            width: 20px;
+            height: 20px;
+            background:url("../images/beian.png");
+        }
+    }
+    .copy{
+        color:#000;
+        margin: 10px 0 10px 0;
+    }
+}

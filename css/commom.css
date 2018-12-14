@@ -1,0 +1,130 @@
+/*======头部======*/
+#header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+#header .choose{
+  width: 60px;
+  height: 100px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 40px;
+  right: 450px;
+  z-index: 1000000;
+}
+#header .choose p{
+  height: 20px;
+  margin-top: 5px;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+}
+#header .choose p:hover{
+  color: red;
+  text-decoration: underline;
+
+}
+#header .choose p:last-child{
+  border-bottom: none;
+}
+#header .con {
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+}
+#header .con .top_l {
+  width: 350px;
+}
+#header .con .top_l li {
+  float: left;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+#header .con .top_l li a {
+  color: #000;
+  font-size: 14px;
+}
+#header .con .top_l li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+#header .con .top_r {
+  width: 350px;
+  height: 40px;
+  /*overflow: hidden;*/
+}
+#header .con .top_r li {
+  float: left;
+  width: 60px;
+  height: 140px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  position: relative;
+}
+#header .con .top_r li a {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  padding-right: 5px;
+  color: #000;
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+}
+#header .con .top_r li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+#header .con .top_r li:last-child a {
+  border-right: none;
+}
+
+/*==============尾部=================================*/
+#footer{
+    width: 620px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#footer .link a{
+    width: 60px;
+    height: 20px;
+    color: #000;
+    padding-right: 5px;
+    border-right: 1px solid #ccc;
+}
+#footer .link a:last-child{
+    border-right: none;
+}
+#footer .beian{
+    margin-top: 10px;
+
+}
+#footer .beian a{
+    color: #000;
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+}
+#footer .beian a:first-child{
+    margin-left: 20px;
+}
+#footer .beian a:last-child{
+    border-right: none;
+}
+#footer .beian .police{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background:url("../images/beian.png");
+}
+#footer .copy{
+    color:#000;
+    margin: 10px 0 10px 0;
+}
